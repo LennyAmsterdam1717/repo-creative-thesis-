@@ -51,6 +51,14 @@
 - **S7.** Static news graph built from 2000–2019 news but used from 2007 onward. Factiva is not public. No costs.
 - **S8.** Random 90/10 edge split on a 100-node topic graph. No temporal test.
 
+## 2026-11-07 (evening): data check for I2 (revolving door)
+- **Access.** The Wikidata SPARQL endpoint is reachable from the cloud shell (HTTP 200); the wbgetentities API returned 429. Open Draaideur's API is also reachable. Integrity Watch's revolving-door page is 404 and its data page is 403.
+- **Fixes in `scripts/wikidata_coverage.py`.** The per-group employer query timed out, so it is now batched in groups of 250 people. The Dutch-minister subclass query also timed out, so the position list is resolved first.
+- **Result.** Only about 20 dated post-office employers on Wikidata across about 4,900 exits (MEP, NL MPs, NL ministers, Bundestag), 1999–2022. Details are in `data_check_I2.md`.
+- **Decision.** Wikidata is used only for features. Labels come from Open Draaideur (182 people with sector-labelled post-office jobs, 2013–2021), or from the Leiden/PDC data if obtainable.
+- **Privacy.** Per-person raw data is kept local and git-ignored; only aggregate counts are committed.
+- **Search queries:** `post-parliamentary careers dataset Germany Netherlands MPs replication data Claessen Bailer Turner-Zwinkels`; `Corporate Europe Observatory RevolvingDoorWatch database former commissioners MEPs`; `LobbyControl Lobbypedia Seitenwechsler Liste Politiker Wirtschaft Datensatz`; `Parlement.com oud-Kamerleden loopbaan na de politiek draaideur onderzoek dataset`; `EU Integrity Watch former MEPs commissioners post-employment data download`; `Open State Foundation open draaideur data github`; `"post-parliamentary" careers dataset replication Dataverse OR OSF Netherlands Germany MPs private sector`.
+
 ### Open questions and unverified leads
 - Does Chen, Kelly & Xiu's 13-language sample include Dutch? [UNVERIFIED]
 - CEPII IntenSE download link: the paper says it is on cepii.fr, but I did not find a direct link.

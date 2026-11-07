@@ -1,0 +1,5 @@
+group,exits_1999_2022,has_any_employer,has_employer_without_start_date,new_employer_within_3y,new_position_within_3y,anything_new_within_3y,share_employer_within_3y,share_anything_within_3y
+MEP,2516,397,342,5,452,456,0.002,0.181
+NL House of Representatives,566,87,71,5,82,84,0.009,0.148
+NL minister,113,44,38,4,22,25,0.035,0.221
+German Bundestag,1746,177,129,6,79,85,0.003,0.049

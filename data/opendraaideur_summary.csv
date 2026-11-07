@@ -1,0 +1,32 @@
+measure,count
+persons,311
+persons_with_post_office_job,182
+post_office_jobs,285
+post_office_jobs_with_start_date,280
+distinct_destination_orgs,259
+sector: publieke domein,110
+sector: brancheorganisatie & koepels,39
+sector: overige,36
+sector: bedrijf,36
+sector: zelfstandig adviseur,34
+sector: public affairs kantoor,15
+sector: ngo,10
+sector: voorzitter,1
+sector: tweede kamerlid,1
+sector: publiek domein,1
+sector: tweede kamer,1
+sector: pensioen,1
+start year: missing,5
+start year: 2001,1
+start year: 2009,1
+start year: 2010,1
+start year: 2011,2
+start year: 2013,5
+start year: 2014,6
+start year: 2015,11
+start year: 2016,9
+start year: 2017,47
+start year: 2018,53
+start year: 2019,39
+start year: 2020,25
+start year: 2021,80

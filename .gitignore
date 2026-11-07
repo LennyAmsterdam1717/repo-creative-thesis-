@@ -1,0 +1,4 @@
+# Raw downloads with named persons (GDPR): keep local, never commit
+data/raw/
+data/wikidata_destinations.csv
+__pycache__/
